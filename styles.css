@@ -172,7 +172,7 @@ margin-top:24px;
 }
 
 .main__text{
-    display: flex;
+    display: block;
     align-items: center;
     word-wrap: break-word;
     /* width: 288px; */
@@ -181,8 +181,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 18px;
 letter-spacing: 0.2px;
-width: 288px;
-height: auto;
+width: 100%;
+max-width: 490px;
 
 }
 
@@ -220,8 +220,9 @@ height: auto;
 .figure-caption{
     padding-top: 24px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+    width: 100%;
 }
 figure{
     padding: 0 16px 16px 16px;
