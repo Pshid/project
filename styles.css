@@ -176,6 +176,9 @@ margin-top:24px;
 }
 
 .main__text{
+    width: 100%;
+    max-width: 490px;
+    min-width: 288px;
     display: block;
     align-items: center;
     word-wrap: break-word;
@@ -185,8 +188,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 18px;
 letter-spacing: 0.2px;
-width: 100%;
-max-width: 490px;
+
+
 
 }
 
@@ -224,7 +227,7 @@ max-width: 490px;
 .figure-caption{
     padding-top: 24px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     width: 100%;
 }
@@ -243,9 +246,11 @@ letter-spacing: -0.2px;
     
 }
 .main__image{
-    
-    width: 320px;
-    height: 176px;
+    max-width: 100%;
+    /* width: 320px; */
+    /* height: 176px; */
+    height: auto;
+    display: block;
     
 }
 .services.layout__services{
