@@ -135,7 +135,7 @@ body{
 /* MAIN */
 
 main{
-    /* padding-top: 24px; */
+     padding-top: 24px; 
     background: #F8F8F8;
 }
 
@@ -363,6 +363,10 @@ min-width: 288px;
 @media (min-width: 1120px){
     body{
         width: 1120px;
+    }
+    main{
+    padding-top: 0;
+
     }
     .main__image{
         display: flex;
