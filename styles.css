@@ -40,8 +40,8 @@
 
 body{
     width: 100%;
-     max-width: 1120px;/*320px; */
-    min-width: 320px;
+     /* max-width: 1120px;/*320px; */
+    /* min-width: 320px; */ 
       /* height: 700px;  */
     font-family: "TT Lakes", sans-serif;
     margin:0 auto;
@@ -135,7 +135,7 @@ body{
 /* MAIN */
 
 main{
-    padding-top: 24px;
+    /* padding-top: 24px; */
     background: #F8F8F8;
 }
 
@@ -394,11 +394,11 @@ min-width: 288px;
         display: flex;
         flex-wrap: wrap;
         align-content: flex-start;
-        /* gap: 16px 0; */
+         gap: 0 5px; 
         row-gap: 0;
         /* padding-bottom: 8px; */
-        padding-left: 16px;
-        padding-right:25px;
+         padding-left: 16px;
+        /* padding-right:25px;  */
         
     }
     .menu__service-item--hidden{
@@ -479,7 +479,7 @@ text-align: right;
     .figure-caption {
     display: grid;
     grid-template-columns: 1fr 532px; /* Текст занимает свободное пространство */
-    /* gap: 36px; */
+    gap: 36px;
     padding-left: 20px;
   }
   
