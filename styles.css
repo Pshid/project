@@ -327,9 +327,21 @@ letter-spacing: 0.2px;
     .menu__service-item--hidden{
         display: none;
     }
-    .figure-caption{
+    /* .figure-caption{
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;} */
+    .figure-caption {
+    display: grid;
+    grid-template-columns: minmax(288px, 1fr) minmax(200px, 360px);
+    gap: 24px;
+    padding: 32px 24px;
+    align-items: start;
+  }
+  
+  .figure-caption__caption {
+    width: 100%;
+    height: auto; /* Убираем фиксированную высоту */
+  }
     
     .main__text{
         font-family: TT Lakes;
@@ -339,8 +351,8 @@ line-height: 18px;
 letter-spacing: 0.2px;
 width:100%;
 /* height: auto; */
-max-width: 490px;
-min-width: 288px;
+/* max-width: 490px;
+min-width: 288px; */
     }
     .read__more-link{
     
